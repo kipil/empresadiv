@@ -1,0 +1,69 @@
+/*======================================Estilos al CV ====================*/
+/*Estilos al header del cv*/
+.perfilCV{
+    margin-top: 30px;
+   text-align: center;
+}
+.perfilCV .foto-perfil >img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    
+}
+.perfilCV hr {
+    width: 60%;
+}
+
+/* Fin header */
+
+/*=====================*/
+
+/*Estilos Datos personales*/
+
+.datos-personalesCV, .datos-escolaresCV, .datos-laboralesCV, .datos-complementariosCV{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.datos-personalesCV table {
+    width: 100%;
+    margin-left: 12%;
+    font-size: 20px;
+}
+
+/* Fin estilos datos personales */
+
+/*===========================*/
+
+/*Inicio estilos datos escolares */
+.datos-escolaresCV .estudios  {
+    margin-left: 12%;
+}
+.fa-graduation-cap{
+    font-size: 50px!important;
+}
+.datos-escolaresCV .carrera{
+    color: red;
+}
+/* Fin estilos datos Escolares */
+
+/*===========================*/
+
+/*Inicio estilos datos-laborales */
+
+.datos-laboralesCV .trabajos{
+    margin-left: 12%;
+}
+/* Fin estilos datos Laborales */
+
+/*===========================*/
+
+/*Inicio estilos datos-Complementarios */
+
+.datos-complementariosCV .complementario{
+    margin-left: 12%;
+}
